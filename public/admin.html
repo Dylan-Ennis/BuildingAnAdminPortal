@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Admin Portal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="root">
+        <h1>Admin Page</h1>
+        <div>
+            <label for="shinobiInput">The Shinobi Initiative:</label>
+            <input type="text" id="shinobiInput">
+            <button onclick="updateID('shinobiInput')">Save quantity</button>
+        </div>
+        <div>
+            <label for="tessInput">Tess the Wonder Dog:</label>
+            <input type="text" id="tessInput">
+            <button onclick="updateID('tessInput')">Save quantity</button>
+        </div>
+        <div>
+            <label for="legendsInput">Legends of Arathrae:</label>
+            <input type="text" id="legendsInput">
+            <button onclick="updateID('legendsInput')">Save quantity</button>
+        </div>
+        <div>
+            <label for="warpInput">W∀RP:</label>
+            <input type="text" id="warpInput">
+            <button onclick="updateID('warpInput')">Save quantity</button>
+        </div>
+    </div>
+    <!-- Our JavaScript Code  -->
+    <script src="admin.js"></script>
+</body>
+
+</html>
